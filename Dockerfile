@@ -19,7 +19,7 @@ RUN python3 -m pip install \
   scikit-learn==1.9.1 \
   "pandas[gcp]==3.1.1"
 
-COPY src/trainer.py /app/
+COPY trainer.py /app/
 ##########################################################################
 
 WORKDIR /app/
